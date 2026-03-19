@@ -140,23 +140,6 @@ Events:
 - `stop_typing` `{ "to": "user_2" }`
 - `seen` `{ "to": "user_2", "messageId": "msg_123" }`
 
-## Frontend
-A React dashboard is included to test:
-- Register/Login
-- Access/refresh token flow
-- Send message / Create group
-- Socket connect + events
-
-Run:
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-## Notes for Sharing (LinkedIn/CV)
-- This project is designed to demonstrate microservices architecture, real-time communication, and event-driven messaging.
-- If you plan to make it public, replace real secrets in `.env` with safe placeholders.
 
 ## License
 MIT
